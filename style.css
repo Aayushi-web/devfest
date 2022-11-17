@@ -113,6 +113,15 @@ margin-top: 35px;
 font-size: 23px;
 margin-right: 8px;
 }
+.tex-area h1{
+    /* margin-left: 37px;
+font-size: 23px;
+margin-right: 8px; */
+color: black;
+font-size: 36px;
+margin-right: 8px;
+
+}
 .about-event{
     margin-left: 50px;
 }
@@ -131,12 +140,13 @@ margin-right: 8px;
     font-size: 16vw;
     text-align: center;
     color: rgba(68, 68, 68, 0.8);
+    margin-top: 180px;
 }
 .relates1 h1{
     font-weight: 700;
     font-size: 16vw;
     text-align: center;
-    color: rgba(68, 68, 68, 0.8);
+    color: rgba(68, 68, 68, 0.457);
     margin-top: 680px;
 }
 .relates2 h1{
@@ -165,6 +175,7 @@ color: rgba(68, 68, 68, 0.8);
     margin-top: -186px;
     right: 0px;
     left:0px;
+    margin-top: -30px;
     position: absolute;
 }
 .about-speaker{
@@ -178,6 +189,7 @@ row-gap: 75px;
 column-gap: 75px;
 margin-left: 120px;
 padding: 5px;
+margin-top: 300px;
 }
 .sp1{
     background-color: rgb(94, 94, 92);
@@ -230,6 +242,7 @@ margin-top: 40px;
 }
 .venue{
     display: flex;
+    margin-top: 200px;
 }
 .slide-img img{
     border-radius: 30px;
@@ -305,6 +318,7 @@ border-width: 8px;
     align-items: center;
     gap: 1rem;
     color: gold;
+    margin-top: 162px;
 }
 .spon p{
   font-size:50px ;
@@ -480,5 +494,35 @@ border-radius: 15px;
 .footer1{
     display: flex;
     flex-direction: row;
-    background-color: #fff;
+   margin-top: 50px;
+    justify-content: center;
+    align-items: center;
 }
+.about-right{
+    color:white;
+    margin-left: 360px;
+    font-size: 20px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    line-height: 50px;
+}
+.about-left a,h1{
+    color: #f2ad00;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 19px;
+line-height: 35px;
+
+}
+.about-left h1{
+    font-size: 40px;
+}
+.about-left p{
+    font-family:  ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    line-height: 30px;
+    color: aliceblue;
+}
+.para {
+    font-family:  ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    line-height: 30px;
+    color: aliceblue;
+}
+
