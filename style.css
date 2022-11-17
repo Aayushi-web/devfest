@@ -439,6 +439,7 @@ margin-right: 28px;
         color: white;
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; ;
         line-height: 2px;
+        margin-top: 65px;
     }
 
 .spon6{
@@ -471,6 +472,7 @@ margin-right: 28px;
     row-gap: 5px;
     margin-left: 120px;
     margin-right: 120px;
+    margin-top: 75px;
     
 }
 .com1{
@@ -533,10 +535,12 @@ line-height: 35px;
 }
 .line{
     text-align: center;
+    align-items: center;
     font-family:  ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     line-height: 30px;
     font-size: 35px;
     color: aliceblue;
+    margin-top: 20px;
 }
 .line1{
     text-align: center;
@@ -550,6 +554,7 @@ line-height: 35px;
 }
 .soocial{
     margin-left: 620px;
+    height: 20vh;
 }
 
 .soocial a img{
@@ -557,6 +562,38 @@ line-height: 35px;
     display: inline-block;
     font-size: 8px;
     margin-inline: .75%;
-    transition: scale .2s ease;
+    transition: all 1s ease-out;
     width: 6%;
+}
+.soocial a img:hover{
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+}
+.last-line p{
+    color: antiquewhite;
+    text-align: center;
+  font-family:   ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* margin-top: 30px; */
+  font-size: 17px;
+}
+.link-last-para{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 20vh;
+    line-height: 10;
+    font-family:  ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.link-last-para a{
+    color: white;
+   text-decoration: none;
+   text-align: center;
+   margin-left: 80px;
+}
+p.last-line-para-h{
+    font-size: 34px
+}
+.last-line{
+    background-color: #f2ad00;
 }
