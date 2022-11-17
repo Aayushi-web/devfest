@@ -297,7 +297,9 @@ border-width: 8px;
     display: flex;
     margin-left: 60px;
 }
-
+.nav ul li img{
+    border-radius: 70px;;
+}
 
 .team-icons a img{
     width: 3vw;
@@ -440,6 +442,7 @@ margin-right: 28px;
         font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; ;
         line-height: 2px;
         margin-top: 65px;
+        font-weight: 800;
     }
 
 .spon6{
@@ -528,7 +531,7 @@ line-height: 35px;
     color: aliceblue;
 }
 .dev {
-    background-color:rgb(79, 78, 78);
+    background-color: rgb(59 61 67);
 
     margin-top: 20px;
     
@@ -596,4 +599,13 @@ p.last-line-para-h{
 }
 .last-line{
     background-color: #f2ad00;
+    
+}
+.gif{
+    display: flex;
+    justify-content: center;
+}
+.gif img{
+    width: 50vw;
+    height: 53vh;
 }
